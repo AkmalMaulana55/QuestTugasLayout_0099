@@ -74,7 +74,15 @@ fun KartuProfil(
                 )
             }
 
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.jarak_logo_teks)))
 
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.ukuran_logo))
+                    .padding(all = dimensionResource(R.dimen.padding_logo))
+            )
         }
     }
 }
