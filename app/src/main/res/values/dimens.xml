@@ -12,4 +12,11 @@
     <dimen name="ukuran_logo">70dp</dimen>
     <dimen name="jarak_judul">25dp</dimen>
     <dimen name="jarak_logo_teks">12dp</dimen>
+
+    <dimen name="font_prodi">26sp</dimen>
+    <dimen name="font_univ">14sp</dimen>
+    <dimen name="font_nama_cursive">20sp</dimen>
+    <dimen name="font_nama">18sp</dimen>
+    <dimen name="font_telp">12sp</dimen>
+    <dimen name="font_alamat">12sp</dimen>
 </resources>
