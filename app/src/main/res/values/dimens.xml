@@ -19,4 +19,6 @@
     <dimen name="font_nama">18sp</dimen>
     <dimen name="font_telp">12sp</dimen>
     <dimen name="font_alamat">12sp</dimen>
+
+    <item name="bobot_teks" format="float" type="dimen">1</item>
 </resources>
