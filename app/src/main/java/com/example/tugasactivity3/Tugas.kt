@@ -94,5 +94,18 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
             .padding(top = dimensionResource(R.dimen.padding_atas))
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        Text(
+            stringResource(id = R.string.prodi),
+            fontSize = ukuranFont(R.dimen.font_prodi),
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            stringResource(id = R.string.univ),
+            fontSize = ukuranFont(R.dimen.font_univ),
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul)))
+
+    }
 }
