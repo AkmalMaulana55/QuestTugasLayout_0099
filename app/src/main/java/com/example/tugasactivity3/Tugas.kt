@@ -39,6 +39,41 @@ fun KartuProfil(
                     .padding(all = dimensionResource(R.dimen.padding_logo))
             )
 
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.jarak_logo_teks)))
+
+            Column(
+                modifier = Modifier.weight(
+                    ResourcesCompat.getFloat(
+                        LocalContext.current.resources,
+                        R.dimen.bobot_teks
+                    )
+                )
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = if (pakaiCursive) ukuranFont(R.dimen.font_nama_cursive)
+                    else ukuranFont(R.dimen.font_nama),
+                    fontFamily = if (pakaiCursive) FontFamily.Cursive else FontFamily.Default,
+                    fontWeight = if (pakaiCursive) FontWeight.Normal else FontWeight.Bold,
+                    color = colorResource(R.color.white),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.padding_nama))
+                )
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        fontSize = ukuranFont(R.dimen.font_telp),
+                        color = colorResource(R.color.cyan),
+                        modifier = Modifier.padding(top = dimensionResource(R.dimen.padding_telp))
+                    )
+                }
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = ukuranFont(R.dimen.font_alamat),
+                    color = colorResource(warnaAlamat),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.padding_alamat))
+                )
+            }
+
 
         }
     }
