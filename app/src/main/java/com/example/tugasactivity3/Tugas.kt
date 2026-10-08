@@ -107,5 +107,40 @@ fun HalamanUtama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul)))
 
+        KartuProfil(
+            warnaCard = R.color.card_0_bg,
+            nama = R.string.nama_0,
+            alamat = R.string.alamat_0,
+            pakaiCursive = true
+        )
+        KartuProfil(
+            warnaCard = R.color.card_1_bg,
+            nama = R.string.nama_1,
+            telepon = R.string.telp_1,
+            alamat = R.string.alamat_1
+        )
+        KartuProfil(
+            warnaCard = R.color.card_2_bg,
+            nama = R.string.nama_2,
+            telepon = R.string.telp_2,
+            alamat = R.string.alamat_2,
+            warnaAlamat = R.color.white
+        )
+        KartuProfil(
+            warnaCard = R.color.card_3_bg,
+            nama = R.string.nama_3,
+            telepon = R.string.telp_3,
+            alamat = R.string.alamat_3,
+            warnaAlamat = R.color.white
+        )
+
+        Box(modifier = Modifier.fillMaxSize()) {
+            Text(
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = dimensionResource(R.dimen.padding_bawah_copy))
+            )
+        }
     }
 }
