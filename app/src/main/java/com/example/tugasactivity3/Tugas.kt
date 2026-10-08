@@ -86,3 +86,8 @@ fun KartuProfil(
         }
     }
 }
+
+@Composable
+fun HalamanUtama(modifier: Modifier = Modifier) {
+
+}
