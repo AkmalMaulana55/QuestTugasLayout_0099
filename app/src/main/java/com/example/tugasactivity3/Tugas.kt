@@ -29,5 +29,17 @@ fun KartuProfil(
         colors = CardDefaults.cardColors(
             containerColor = colorResource(warnaCard)
         )
-    )
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.ukuran_logo))
+                    .padding(all = dimensionResource(R.dimen.padding_logo))
+            )
+
+
+        }
+    }
 }
