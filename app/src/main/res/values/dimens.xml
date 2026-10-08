@@ -8,4 +8,8 @@
     <dimen name="padding_nama">8dp</dimen>
     <dimen name="padding_telp">2dp</dimen>
     <dimen name="padding_alamat">4dp</dimen>
+
+    <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="jarak_judul">25dp</dimen>
+    <dimen name="jarak_logo_teks">12dp</dimen>
 </resources>
