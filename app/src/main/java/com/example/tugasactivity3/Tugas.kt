@@ -19,5 +19,15 @@ fun KartuProfil(
     pakaiCursive: Boolean = false,
     warnaAlamat: Int = R.color.yellow
 ) {
-
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(
+                horizontal = dimensionResource(R.dimen.padding_card),
+                vertical = dimensionResource(R.dimen.padding_card_vertikal)
+            ),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(warnaCard)
+        )
+    )
 }
