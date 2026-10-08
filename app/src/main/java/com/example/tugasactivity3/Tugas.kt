@@ -89,5 +89,10 @@ fun KartuProfil(
 
 @Composable
 fun HalamanUtama(modifier: Modifier = Modifier) {
-
+    Column(
+        modifier = Modifier
+            .padding(top = dimensionResource(R.dimen.padding_atas))
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
 }
