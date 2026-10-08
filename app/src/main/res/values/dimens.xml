@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <dimen name="padding_atas">100dp</dimen>
+    <dimen name="padding_bawah_copy">50dp</dimen>
+    <dimen name="padding_card">12dp</dimen>
+    <dimen name="padding_card_vertikal">6dp</dimen>
+    <dimen name="padding_logo">5dp</dimen>
+    <dimen name="padding_nama">8dp</dimen>
+    <dimen name="padding_telp">2dp</dimen>
+    <dimen name="padding_alamat">4dp</dimen>
 </resources>
